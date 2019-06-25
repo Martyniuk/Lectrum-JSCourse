@@ -26,6 +26,7 @@ function sumOfEven(arr) {
     return res;
 }
 
+// helper function
 function isEven(number) {
     return number % 2 === 0;
 }

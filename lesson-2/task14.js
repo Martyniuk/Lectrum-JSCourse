@@ -20,3 +20,8 @@ function division(n) {
 
     return num;
 }
+
+const number = 1000;
+const result = division(number);
+
+console.log(result);

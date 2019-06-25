@@ -12,7 +12,7 @@ for (var i = 0; i < 3; i++) {
 
 function forToWhile() {
 
-    var i = 0;
+    let i = 0;
     while (i < 3) {
         console.log(`index ${i}!`);
         i++;

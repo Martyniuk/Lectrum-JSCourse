@@ -21,17 +21,13 @@ if (login == 'Pitter') {
 */
 
 function loginValidation(login) {
-    let message;
-
-    message = login == 'Pitter' ? 'Hi'
-        : login == 'Owner' ? 'Hello'
-            : login == '' ? 'unknown' : '';
-
-    return message;
+  return login == 'Pitter' ? 'Hi'
+    : login == 'Owner' ? 'Hello'
+      : login == '' ? 'unknown' : '';
 }
 
 // delete left hand side params one by one starting from 'Pitter' to view all possible options
 const param = 'Pitter' || 'Owner' || '' || 12;
-const result = loginValidation(param);
+const message = loginValidation(param);
 
-console.log(result);
+console.log(message);
